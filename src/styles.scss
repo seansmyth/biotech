@@ -21,7 +21,8 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 1128px;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 h1 {
@@ -38,6 +39,11 @@ h3 {
   font-size: 25px;
   font-weight: bold;
   color: $green-dark;
+}
+
+main > section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .main-menu-items {

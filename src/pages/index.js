@@ -10,8 +10,8 @@ import Products from "../components/home/products"
 import Testimonials from "../components/home/testimonials"
 
 import Newsletter from "../components/home/newsletter"
-
 import Careers from "../components/home/careers"
+import LiveChat from "../components/home/livechat"
 
 const IndexPage = () => (
   <Layout>
@@ -22,6 +22,7 @@ const IndexPage = () => (
     <Testimonials></Testimonials>
     <Newsletter></Newsletter>
     <Careers></Careers>
+    <LiveChat></LiveChat>
     <h1> Hi people </h1> <p> Welcome to your new Gatsby site. </p>{" "}
     <p> Now go build something greatish. </p>{" "}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
