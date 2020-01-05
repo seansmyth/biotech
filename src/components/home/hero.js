@@ -15,7 +15,7 @@ const Hero = () => (
     </h1>
 
     <img
-      src="static/hero_bg-c86fd551be070cdd37425a2bc683ae9a.jpeg"
+      src="https://seansmyth.ie/wp-content/uploads/2020/01/hero_bg.jpeg"
       alt="A scientist looking through a Microscope"
     />
 
