@@ -13,7 +13,7 @@ $white: rgba(255, 255, 255, 1);
 
 body {
   // background: red;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   color: $black;
 }
 
