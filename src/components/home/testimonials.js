@@ -1,10 +1,10 @@
 // import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react"
-import("./hero.scss")
+import("./testimonials.scss")
 
-const Hero = ({ siteTitle }) => (
-  <section className="hero">
+const Testimonials = ({}) => (
+  <section className="testimonials">
     <h1>
       BioTech{" "}
       <span>
@@ -15,4 +15,4 @@ const Hero = ({ siteTitle }) => (
   </section>
 )
 
-export default Hero
+export default Testimonials
