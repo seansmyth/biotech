@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/home/hero"
 import Quality from "../components/home/quality"
@@ -10,7 +10,7 @@ import Products from "../components/home/products"
 import Testimonials from "../components/home/testimonials"
 
 import Newsletter from "../components/home/newsletter"
-import Careers from "../components/home/careers"
+// import Careers from "../components/home/careers"
 import LiveChat from "../components/home/livechat"
 
 const IndexPage = () => (
