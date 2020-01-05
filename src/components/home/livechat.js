@@ -2,7 +2,7 @@
 // import PropTypes from "prop-types"
 
 import React from "react"
-import("./liveChat.scss")
+import("./livechat.scss")
 
 //not spending time makeing this work
 const LiveChat = () => (
