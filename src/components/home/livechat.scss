@@ -1,3 +1,30 @@
-.testimonials {
-  background-color: yellow;
+.liveChat {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 2px;
+
+  left: 95%;
+
+  position: sticky;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: bottom right;
+
+  &:hover {
+    transform: scale(1.05);
+    transform-origin: bottom right;
+
+    svg {
+      fill: red;
+    }
+  }
+
+  svg {
+    width: 50px;
+    height: auto;
+    fill: #063b4a;
+  }
 }
