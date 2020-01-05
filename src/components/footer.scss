@@ -1,3 +1,9 @@
 .footer {
-  background-color: green;
+  background-color: $green-main;
+  // columns: 6;
+  display: flex;
+
+  ul {
+    list-style: none;
+  }
 }
