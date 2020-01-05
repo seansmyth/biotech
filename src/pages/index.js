@@ -22,13 +22,13 @@ const IndexPage = () => (
     <Testimonials></Testimonials>
     <Newsletter></Newsletter>
     <Careers></Careers>
-    <h1> Hi people </h1> <p> Welcome to your new Gatsby site. </p>{" "}
+    <LiveChat></LiveChat>
+    {/* <h1> Hi people </h1> <p> Welcome to your new Gatsby site. </p>{" "}
     <p> Now go build something greatish. </p>{" "}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>{" "}
-    <Link to="/page-2/"> Go to page 2 </Link>
-    <LiveChat></LiveChat>
+    <Link to="/page-2/"> Go to page 2 </Link> */}
   </Layout>
 )
 
