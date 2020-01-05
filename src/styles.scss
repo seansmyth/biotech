@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
 $green-main: #256845;
 $green-light: #daece2;
 $green-dark: #256845;
@@ -9,4 +11,29 @@ $black: rgba(0, 0, 0, 1);
 
 body {
   // background: red;
+  font-family: "Roboto", sans-serif;
+  color: $black;
 }
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: $green-dark;
+}
+
+.main-menu-items {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+// a

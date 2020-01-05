@@ -8,7 +8,7 @@ import("./footer.scss")
 const Footer = ({}) => (
   <footer className="footer">
     <ul>
-      <li>About Us</li>
+      <li className="main-menu-items">About Us</li>
       <li>
         <Link to="/">About</Link>
       </li>
@@ -32,7 +32,7 @@ const Footer = ({}) => (
       </li>
     </ul>
     <ul>
-      <li>Accreditation</li>
+      <li className="main-menu-items">Accreditation</li>
       <li>
         <Link to="/">Validated Methods</Link>
       </li>
@@ -44,7 +44,7 @@ const Footer = ({}) => (
       </li>
     </ul>
     <ul>
-      <li>Customer Support</li>
+      <li className="main-menu-items">Customer Support</li>
       <li>
         <Link to="/">Ordering</Link>
       </li>
@@ -72,7 +72,7 @@ const Footer = ({}) => (
     </ul>
 
     <ul>
-      <li>Services</li>
+      <li className="main-menu-items">Services</li>
       <li>
         <Link to="/">Analytical Services</Link>
       </li>
@@ -82,7 +82,7 @@ const Footer = ({}) => (
     </ul>
 
     <ul>
-      <li>News</li>
+      <li className="main-menu-items">News</li>
       <li>
         <Link to="/">Press</Link>
       </li>
@@ -98,7 +98,7 @@ const Footer = ({}) => (
     </ul>
 
     <ul>
-      <li>Legal</li>
+      <li className="main-menu-items">Legal</li>
       <li>
         <Link to="/">Imprint</Link>
       </li>
@@ -112,6 +112,7 @@ const Footer = ({}) => (
         <Link to="/">Cookies</Link>
       </li>
     </ul>
+    <div className="copyright">Copyright © 2020 Biotech Inc </div>
   </footer>
 )
 
