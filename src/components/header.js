@@ -28,6 +28,41 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Logo</Link>
+        </li>
+
+        <li>
+          <Link to="/">home</Link>
+        </li>
+        <li>
+          <Link to="/">Online Store</Link>
+        </li>
+        <li>
+          <Link to="/">Contact Us</Link>
+        </li>
+        <li>
+          <Link to="/">Support</Link>
+        </li>
+        <li>
+          <Link to="/">About Us</Link>
+        </li>
+        <li>
+          <div className="search-container">
+            <form action="/#">
+              <input type="text" placeholder="Search.." name="search"></input>
+
+              <button type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 
