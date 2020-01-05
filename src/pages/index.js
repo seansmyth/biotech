@@ -21,7 +21,7 @@ const IndexPage = () => (
     <Products></Products>
     <Testimonials></Testimonials>
     <Newsletter></Newsletter>
-    <Careers></Careers>
+    {/* <Careers></Careers> */}
     <LiveChat></LiveChat>
     {/* <h1> Hi people </h1> <p> Welcome to your new Gatsby site. </p>{" "}
     <p> Now go build something greatish. </p>{" "}

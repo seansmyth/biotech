@@ -5,18 +5,20 @@ import React from "react"
 import("./products.scss")
 
 const Products = () => (
-  <section className="products">
-    <h1>
-      Products{" "}
-      <ul>
-        <li>Sure look </li>
-        <div>OMG</div>
-      </ul>
-      <span>
-        A recognised world leader in the prduction and development of chemical
-        agents & chemical kits.
-      </span>
-    </h1>
+  <section className="products  capped_width">
+    <div className="text">
+      <h2>Some of Our Products</h2>
+      <p>
+        Look, don’t take our word for it. we’ve worked with some of the biggest
+        names in the industry and pride ourselves in what we have achieved with
+        them over the years
+      </p>
+    </div>
+
+    <img
+      src="https://seansmyth.ie/wp-content/uploads/2020/01/testimonials.png"
+      alt="testimonials"
+    />
   </section>
 )
 
