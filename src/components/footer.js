@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import React from "react"
 import("./footer.scss")
 
-const Footer = ({}) => (
+const Footer = () => (
   <footer className="footer">
     <ul>
       <li className="main-menu-items">About Us</li>

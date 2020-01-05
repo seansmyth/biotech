@@ -4,7 +4,7 @@ import React from "react"
 // import containerStyles from "./products.module.scss"
 import("./products.scss")
 
-const Products = ({}) => (
+const Products = () => (
   <section className="products">
     <h1>
       Products{" "}

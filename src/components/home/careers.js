@@ -3,7 +3,7 @@
 import React from "react"
 import("./careers.scss")
 
-const Careers = ({}) => (
+const Careers = () => (
   <section className="careers">
     <h1>
       BioTech{" "}

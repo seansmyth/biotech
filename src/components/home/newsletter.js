@@ -3,7 +3,7 @@
 import React from "react"
 import("./testimonials.scss")
 
-const Newsletter = ({}) => (
+const Newsletter = () => (
   <section className="newsletter">
     <h1>
       BioTech{" "}
